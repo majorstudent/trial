@@ -1,0 +1,23 @@
+.wrapper{
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.5em;
+}
+
+.wrapper > div:nth-child(odd){
+    background-color: gray;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(even){
+    background-color: hsl(244, 38%, 16%);
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(n){
+    justify-content: center;
+    text-align: center;
+}
